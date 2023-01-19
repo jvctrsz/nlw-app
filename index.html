@@ -19,16 +19,17 @@
     </header>
 
     <form action="">
-        <div class="habits">
+        <div class="habits" data-name="workout">
             <div class="habit">
-                <abbr title="Corrida">🏃‍♂️</abbr>
+                <abbr title="Exercicio">🏋️‍♀️</abbr>
             </div>
-            <abbr title="3000ML">
-                <div class="habit">💧</div>
-            </abbr>
-            <abbr title="Frutas">
-                <div class="habit">🍎</div>
-            </abbr>
+            <div class="habit" data-name="water">
+                <abbr title="3000ML">💧</abbr>
+            </div>
+            <div class="habit" data-name="fruits">
+                <abbr title="Frutas">🍎</abbr>
+            </div>
+           
         </div>
 
         <div class="days">
@@ -39,15 +40,10 @@
                 <input type="checkbox" name="maça">
             </div>
             <div class="days">
-                <div class="day">
-                    <div>04/01</div>
-                    <input type="checkbox" name="corrrida">
-                    <input type="checkbox" name="agua">
-                    <input type="checkbox" name="maça">
-                </div>
         </div>
     </form>
-
+    
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
