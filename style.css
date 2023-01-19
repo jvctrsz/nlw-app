@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #09090A;
+    max-width: 1000px;
+    margin: auto;
+    color: #fff;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 24px;
+    background-color: #09090A;
+    border-radius: 8px;
+    border: 1px solid #8B5CF6;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+}
+
+form{
+    display: flex;
+    padding: 0px 48px;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+.habits{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.habit{
+    width: 64px;
+    height: 64px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.days{
+    display: flex;
+    gap: 48px;
+    margin-left: 32px;
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.day div{
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 125%;
+
+}
+
+input{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 64px;
+    height: 64px;
+    background: #18181B;
+    border: 2px solid #27272A;
+    border-radius: 8px;
+}
+
+input:checked{
+    background:#8B5CF6;
+    border: 2px solid #A78BFA;
+}
