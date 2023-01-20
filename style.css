@@ -6,8 +6,6 @@
 
 body {
     background-color: #09090A;
-    max-width: 1000px;
-    margin: auto;
     color: #fff;
 }
 
@@ -17,6 +15,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 48px;
+    position: fixed;
+    background-color: #09090A;
+    width: 100%;
 }
 
 button {
@@ -36,7 +37,8 @@ button {
 
 form{
     display: flex;
-    padding: 0px 48px;
+    padding: 180px 48px 48px;
+    width: fit-content;
 }
 
 abbr{
@@ -92,4 +94,10 @@ input{
 input:checked{
     background:#8B5CF6;
     border: 2px solid #A78BFA;
+}
+
+@media (max-width: 570px) {
+    button div{
+        display:none;
+    }
 }
